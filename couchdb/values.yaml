@@ -80,6 +80,7 @@ service:
   # annotations:
   enabled: true
   type: LoadBalancer
+  loadBalancerIP: ""
   externalPort: 5984
 
 ## An Ingress resource can provide name-based virtual hosting and TLS
