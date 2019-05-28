@@ -80,8 +80,8 @@ service:
   # annotations:
   enabled: true
   type: LoadBalancer
-  loadBalancerIP: ""
-  externalPort: 5984
+  LoadBalancerIP: ""
+  Port: 5984
 
 ## An Ingress resource can provide name-based virtual hosting and TLS
 ## termination among other things for CouchDB deployments which are accessed
